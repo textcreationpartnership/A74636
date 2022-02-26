@@ -1,0 +1,658 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>New errors made palpable by an old light, or a cheap and easie method to cure the dissentions of the time by a septuagint of conclusions, composed and experimented by Anthony Norwood, Esquire.</title>
+            <author>Norwood, Anthony.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1652</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 58 KB of XML-encoded text transcribed from 23 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A74636</idno>
+            <idno type="STC">Thomason E1291_2</idno>
+            <idno type="EEBO-CITATION">50811916</idno>
+            <idno type="OCLC">ocm 50811916</idno>
+            <idno type="VID">173096</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A74636)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 173096)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts; 173:E1291[2])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>New errors made palpable by an old light, or a cheap and easie method to cure the dissentions of the time by a septuagint of conclusions, composed and experimented by Anthony Norwood, Esquire.</title>
+                  <author>Norwood, Anthony.</author>
+               </titleStmt>
+               <extent>43 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E.G. and are to be sold by C. Adams at the Mary-Gold in Fleet-street over against Feter-lane,</publisher>
+                  <pubPlace>London,</pubPlace>
+                  <date>1652.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the British Library.</note>
+                  <note>Annotation on Thomason copy: "May. 20."</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Religion and politics --  Great Britain --  History --  17th century.</term>
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Religious aspects --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:173096:1" rendition="simple:additions"/>
+            <p>
+               <hi>New</hi> ERRORS Made Palpable by an old LIGHT:</p>
+            <p>OR A Cheap and eaſie Me<g ref="char:EOLhyphen"/>thod to Cure the Diſſentions of the Time by a Septuagint of Con<g ref="char:EOLhyphen"/>cluſions, Compoſed and Ex<g ref="char:EOLhyphen"/>perimented.</p>
+            <p>BY <hi>Anthony Norwood,</hi> Eſquire.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>E. G.</hi> and are to be ſold by CHARLES ADAMS, at the <hi>Mary-Gold</hi> in <hi>Fleet-ſtreet</hi> over againſt <hi>Fe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ter-Lane,</hi> 1652.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <div type="introduction">
+               <pb facs="tcp:173096:2"/>
+               <pb n="1" facs="tcp:173096:2"/>
+               <p>
+                  <hi>
+                     <seg rend="decorInit">L</seg>Ong preambles to ſhort diſ<g ref="char:EOLhyphen"/>courſes are like wide Liſts to narrow Cloaths, which though they ſet off the commodity, yet they yeeld no benefit to the Buyers. Inſtead therefore of a Preface, take (for the better underſtanding of that which followes) this briefe ſurvey of ſuch politicall Axioms as have been held forth to the people for infallible verties by ſome of the late Aulicicall pretenders to Divinity.</hi>
+               </p>
+               <list>
+                  <head>The Epiſcopall party determine thus.</head>
+                  <item>THat by the ordinance of God nationall go<g ref="char:EOLhyphen"/>vernment ought to be ſucceſſively monarchi<g ref="char:EOLhyphen"/>call, or ſolely and hereditarily in one.</item>
+                  <item>That as the Iſraelites, ſo all Nations ought to be governed by Kings; and that Kings may not be reſiſted, depoſed or puniſhed.</item>
+                  <item>That as the primitive Chriſtians, ſo all belee<g ref="char:EOLhyphen"/>ving aſſociations ought to have Biſhops to ſu<g ref="char:EOLhyphen"/>perintend in their Eccleſiaſticall polity.</item>
+                  <pb n="2" facs="tcp:173096:3"/>
+                  <item>That the Regall and Epiſcopall offices may be managed by two diſtinct perſons in one and the ſame Commonwealth; and that both are of di<g ref="char:EOLhyphen"/>vine inſtitution.</item>
+               </list>
+               <list>
+                  <head>The Anti-Epiſcoparian Doctrines, ſpeake to this effect.</head>
+                  <item>THat although there be no divine Law by which the government by Kings was con<g ref="char:EOLhyphen"/>ſtituted, but what was peculiar to the chil<g ref="char:EOLhyphen"/>dren of <hi>Iſrael,</hi> yet Regall Government ought to be continued in all Chriſtian aſſociations.</item>
+                  <item>That in ſome caſes Kings may be reſiſted, but may neither be depoſed nor puniſhed.</item>
+                  <item>That, although there were Biſhops and no Kings in that polity which was peculiar to the primitive Chriſtians, yet the government by Bi<g ref="char:EOLhyphen"/>ſhops is Antichriſtian and ought to be diſconti<g ref="char:EOLhyphen"/>nued.</item>
+                  <item>That in civill affaires government ought to be Monarchicall and in one, but in Eccleſiaſticall concernments democraticall and by many.</item>
+               </list>
+               <p>This is ſum of what they ſay, and at how wide a diſtance in opinion, the Prelaticall and Presbyterian Doctors ſtand in oppoſition one to the other is manifeſt by theſe their publiquely avowed principles; wherein I conceive each of
+<pb n="3" facs="tcp:173096:3"/>
+them to be no leſs remote from truth; and this I ſhall endeavor to demonſtrate in the inſuing propoſitions, that ſo the people of the Nation may be no longer blown in ſunder, and disjoyn<g ref="char:EOLhyphen"/>ted by ſuch impetuous counterblaſts of blind, carnall and ſelfe-intending Rudiments.</p>
+               <p>Thus then we begin.</p>
+            </div>
+            <div n="1" type="proposition">
+               <head>I.</head>
+               <p>If in the firſt ages of the world, as well before the floud as after, every Father had by the Law of God and nature, a jurisdiction over his own fa<g ref="char:EOLhyphen"/>mily ſole and independent of any other humane authority then was it a ſin in any other to uſurp upon their jurisdictions in any caſe whatſoever.</p>
+               <p>But in the firſt ages of the world, as well be<g ref="char:EOLhyphen"/>fore the floud as after, every Father had by the Law of God and Nature a jurisdiction over his own family ſole and independent of any other humane authority.</p>
+               <p>Therefore whoſoever did then aſſume a power over any other Father or his family in any caſe whatſoever, did therein tranſgreſs the ordinance of God.</p>
+            </div>
+            <div n="2" type="proposition">
+               <head>II.</head>
+               <p>If God was diſpleaſed with <hi>Nimrod,</hi> for arro<g ref="char:EOLhyphen"/>gating to himſelfe a juriſdiction over more fa<g ref="char:EOLhyphen"/>milies then his own, then was it not lawfull for him ſo to doe.</p>
+               <p>But God was diſpleaſed with <hi>Nimrod,</hi> for ar<g ref="char:EOLhyphen"/>rogating to himſelfe a juriſdiction over more fa<g ref="char:EOLhyphen"/>milies then his own.</p>
+               <p>
+                  <pb n="4" facs="tcp:173096:4"/>
+Therefore his ſo doing was not juſtifiable in the ſight of Almighty God.</p>
+            </div>
+            <div n="3" type="proposition">
+               <head>III.</head>
+               <p>If the diſpoſing of the children of <hi>Iſrael</hi> into a ſelect fraternity under Kings and Prieſts, was a typical repreſentation of Chriſt and his Church, then is it not preſidentially obliging.</p>
+               <p>But the diſpoſing of the Children of <hi>Iſrael</hi> into a ſelect fraternity under Kings and Prieſts was a typicall repreſentation of Chriſt and his Church.</p>
+               <p>Therefore although the inſtitution were from God, yet doth it not oblige all people and in all times.</p>
+            </div>
+            <div n="4" type="proposition">
+               <head>IV.</head>
+               <p>If God was diſpleaſed with the <hi>Iſraelites</hi> for deſiring to be governed by Kings, and if the pre<g ref="char:EOLhyphen"/>cedent government by Judges did continue ſome hundreds of yeers, without any expreſs diſlike from God; then, if all Nations ought to be preſidented by them, the government by Judges ought rather to be embraced then that of Kings.</p>
+               <p>But God was diſpleaſed with the <hi>Iſraelites,</hi> for deſiring to be governed by Kings; and the prece<g ref="char:EOLhyphen"/>dent government by Judges did continue 450. yeares, without any expreſs diſlike from God, <hi>Acts</hi> 13. 20.</p>
+               <p>Therefore if all Nations ought to be preſiden<g ref="char:EOLhyphen"/>ted by the <hi>Iſraelites,</hi> the government by Judges ought rather to be embraced then that of Kings:</p>
+            </div>
+            <div n="5" type="proposition">
+               <pb n="5" facs="tcp:173096:4"/>
+               <head>V.</head>
+               <p>If nationall government in a military forme be not perpetuated by any univerſally binding Law of God, and if the Kings of <hi>Iſrael</hi> were di<g ref="char:EOLhyphen"/>ſtinguiſtable in their office from the Judges of that Nation by their military imployment one<g ref="char:EOLhyphen"/>ly, then is it more reaſonable to ſay that all Na<g ref="char:EOLhyphen"/>tions may be governed by Judges, then that they ought to be everlaſtingly governed by Kings.</p>
+               <p>But nationall government in a military equi<g ref="char:EOLhyphen"/>page is not perpetuated by any univerſall Law of God, and the Kings of <hi>Iſrael</hi> were diſtinguiſh<g ref="char:EOLhyphen"/>able in their office, from the Judges of that Na<g ref="char:EOLhyphen"/>tion by their Military imployment onely. 1 <hi>Sam.</hi> 10. 1.</p>
+               <p>Therefore it is more rationall to ſay, that all Nations may be governed by Judges, then that they ought to be everlaſtingly governed by Kings.</p>
+            </div>
+            <div n="6" type="proposition">
+               <head>VI.</head>
+               <p>If the government of the whole world were at any time in the power of one Man, then if Mo<g ref="char:EOLhyphen"/>narchicall government be inſtituted by God, it is as lawful to ſubdivide it into as many Monar<g ref="char:EOLhyphen"/>chies as there are families, as to divide it into ſo many Kingdomes as are now in Chriſtendome.</p>
+               <p>But the government of the whole world was by the donation of God ſolely and Monarchi<g ref="char:EOLhyphen"/>cally in <hi>Nebuchadnezzar.</hi> Jer. 27. 7.</p>
+               <p>Therefore, if Monarchicall government be
+<pb n="6" facs="tcp:173096:5"/>
+inſtituted by God, it is as lawfull to ſubdivide it into as many Monarchies as there are families, as to divide it into ſo many Kingdomes as are now in Chriſtendome.</p>
+            </div>
+            <div n="7" type="proposition">
+               <head>VII.</head>
+               <p>If they who teach, that by the ordinance of God the government of a Chriſtian Common<g ref="char:EOLhyphen"/>wealth ought to be Monarchicall, and in one, do likewiſe affirme that by the like ordinance two or more ought to bear rule in the ſame Com<g ref="char:EOLhyphen"/>monwealth, then is their doctrine contradicto<g ref="char:EOLhyphen"/>ry to it ſelfe.</p>
+               <p>But they who teach, that by the ordinance of God the government of a Chriſtian Common<g ref="char:EOLhyphen"/>wealth ought to be Monarchically in a King, do likewiſe affirme that the Clergy have by divine right a gubernative power in the ſame Com<g ref="char:EOLhyphen"/>monwealth.</p>
+               <p>Therefore the Monarchicall Doctors will have ſomething to do to reconcile their own flat con<g ref="char:EOLhyphen"/>tradictions.</p>
+            </div>
+            <div n="8" type="proposition">
+               <head>VIII.</head>
+               <p>If there be nothing in the ordinance to reſtraine Kings or Biſhops to exerciſe what power, and over what people they pleaſe, nor any thing to prohibit the people to have as many, or as few, and what perſons they pleaſe to be their Kings or Biſhops, then is the doctrine of divine ordi<g ref="char:EOLhyphen"/>nation of Kings and Biſhops impertinent and inconſiſtent with peaceable government.</p>
+               <p>
+                  <pb n="7" facs="tcp:173096:5"/>
+But there is nothing in the ordinance to re<g ref="char:EOLhyphen"/>ſtraine either Kings or Biſhops from exerciſing what power, and over what people they pleaſe, nor any thing to prohibit the people from ha<g ref="char:EOLhyphen"/>ving as many, or as few, and what perſons they pleaſe to be their Kings or Biſhops.</p>
+               <p>Therefore the doctrine of divine ordination is impertinent, and not conſiſtent with prudentiall and peaceable principles.</p>
+            </div>
+            <div n="9" type="proposition">
+               <head>IX.</head>
+               <p>If the Ceremoniall Law be aboliſhed, and what<g ref="char:EOLhyphen"/>ſoever was derived from that Law loſt its effica<g ref="char:EOLhyphen"/>cy when that was abrogated, then all formes of government conſtituted by that Law did deter<g ref="char:EOLhyphen"/>mine with it.</p>
+               <p>But the Ceremoniall Law is abrogated, and whatſoever was derived from that Law loſt its efficacy when that was aboliſhed.</p>
+               <p>Therefore all formes of government conſtitu<g ref="char:EOLhyphen"/>ted by that Law are now determined.</p>
+            </div>
+            <div n="10" type="proposition">
+               <head>X.</head>
+               <p>If neither before the Ceremoniall Law was conſtituted, nor after it was aboliſhed, God did preſcribe the Lawes or any ſet forme of govern<g ref="char:EOLhyphen"/>ment, by which and none other, he would have all aſſociated people unalterably governed, then is there not now remaining any municipall Lawes or forme of nationall government of an immediate divine inſtitution.</p>
+               <p>But neither before that Law was inſtituted nor
+<pb n="8" facs="tcp:173096:6"/>
+after it was abrogated did God preſcribe any ſuch Lawes, or forme of government.</p>
+               <p>Therefore no ſuch Lawes or forme of govern<g ref="char:EOLhyphen"/>ment are now of an immediate divine inſtituti<g ref="char:EOLhyphen"/>on.</p>
+            </div>
+            <div n="11" type="proposition">
+               <head>XI.</head>
+               <p>If after the abolition of the Ceremoniall Law no people were confined by God to any poſi<g ref="char:EOLhyphen"/>tive and known forme of Polity, then after that Law was abrogated the fathers of families were not reſtrained by God, of any part of thoſe rights, which were due to them before that Law was in force.</p>
+               <p>But after the abolition of the Ceremoniall Law no people were confined by God to any po<g ref="char:EOLhyphen"/>ſitive and known forme of Polity.</p>
+               <p>Therefore after that Law was abrogated the primitive rights of the Fatherhood might revert to them, notwithſtanding any ordinance of God to the contrary.</p>
+            </div>
+            <div n="12" type="proposition">
+               <head>XII.</head>
+               <p>If in the Goſpell all thoſe who are ſubordi<g ref="char:EOLhyphen"/>nate to the Father of a family be commanded to obey him in every thing, then Chriſtianity doth not abridge a Father of any part of his pri<g ref="char:EOLhyphen"/>mitive Prerogative.</p>
+               <p>But all thoſe who are ſubordinate to the Fa<g ref="char:EOLhyphen"/>ther of a family, are commanded in the Goſpell to obey him in every thing. <hi>Eph.</hi> 5. 24. <hi>Colo.</hi> 3. 20, 22.</p>
+               <p>Therefore a Father of a family loſeth no<g ref="char:EOLhyphen"/>thing
+<pb n="9" facs="tcp:173096:6"/>
+of his primitive Prerogative by being con<g ref="char:EOLhyphen"/>verted to the faith.</p>
+            </div>
+            <div n="13" type="proposition">
+               <head>XIII.</head>
+               <p>If meerly by the donation of the graces of the ſpirit, no Father hath a more particular privi<g ref="char:EOLhyphen"/>ledge, or prerogative then another, then no Chriſtian Father hath more right then another to a gubernative ſuperiority by divine diſpenſa<g ref="char:EOLhyphen"/>tion.</p>
+               <p>But no Father hath meerly by the donation of the graces of the ſpirit, a more particular pri<g ref="char:EOLhyphen"/>viledge or prerogative then another.</p>
+               <p>Therefore upon that account, no Father hath by divine diſpenſation more right then another to a gubernative ſuperiority.</p>
+            </div>
+            <div n="14" type="proposition">
+               <head>XIV.</head>
+               <p>If beleeving Fathers have from God an equall, ſole and independent power both by grace and nature, then no man hath a power to compell them to aſſociate in government, or being aſ<g ref="char:EOLhyphen"/>ſociated to impoſe upon them in cauſes, either Civill or Eccleſiaſticall.</p>
+               <p>But beleeving Fathers have from God an e<g ref="char:EOLhyphen"/>quall, ſole and independent power both by grace and nature.</p>
+               <p>Therefore no man hath authority to compell them to aſſociate in government, or being aſſo<g ref="char:EOLhyphen"/>ciated to impoſe upon them in cauſes, either Ci<g ref="char:EOLhyphen"/>vill or Eccleſiaſticall.</p>
+            </div>
+            <div n="15" type="proposition">
+               <pb n="10" facs="tcp:173096:7"/>
+               <head>XV.</head>
+               <p>If no man have a power to impoſe upon belee<g ref="char:EOLhyphen"/>ving Fathers, or to compell them to aſſociate in government, then may ſuch fathers retaine their native freedome and independency in all cauſes as well Civill as Eccleſiaſticall.</p>
+               <p>But no man hath by divine right a power to impoſe upon heleeving Fathers, or to compell them to aſſociate.</p>
+               <p>Therefore ſuch Fathers may continue free and independent in both the ſaid cauſes.</p>
+            </div>
+            <div n="16" type="proposition">
+               <head>XVI.</head>
+               <p>If the preſervation of peace and propriety, be the proper end of all nationall government, and if beleeving fathers have a right to preſerve their own freedome againſt an obtruded power; then is it neceſſary, that in all Chriſtian aſſociations, government be ſo conſtituted, that the ſubordi<g ref="char:EOLhyphen"/>nate Fathers may be convinced of the lawfulneſs of the power and perſonall calling of their Ma<g ref="char:EOLhyphen"/>giſtrates.</p>
+               <p>But the preſervation of peace and propriety is the proper end of all nation all government, and beleeving Fathers have a right to preſerve their own freedome againſt an obtruded power.</p>
+               <p>Therefore it is neceſſary, that in all Chriſtian aſſociations, government be ſo conſtituted, that the ſubordinate Fathers may be convinced of the lawfulneſs of the power and perſonall calling of their Magiſtrates.</p>
+            </div>
+            <div n="17" type="proposition">
+               <pb n="11" facs="tcp:173096:7"/>
+               <head>XVII.</head>
+               <p>If Magiſtrates may ſin by uſurping upon thoſe over whom they have no warrantable jurisdicti<g ref="char:EOLhyphen"/>on, then ſome rule is neceſſary by which they may infallibly know as well to what people, as to what diſpenſations their authority may law<g ref="char:EOLhyphen"/>fully be extended.</p>
+               <p>But Magiſtrates may ſinne by uſurping upon thoſe over whom they have no warrantable ju<g ref="char:EOLhyphen"/>riſdiction.</p>
+               <p>Therefore ſome rule is neceſſary, by which they may infallibly know as well to what diſpenſati<g ref="char:EOLhyphen"/>ons, as over what people their authority may lawfully be extended.</p>
+            </div>
+            <div n="18" type="proposition">
+               <head>XVIII.</head>
+               <p>If in a Chriſtian Commonwealth neither pa<g ref="char:EOLhyphen"/>rochiall, provinciall, or Monarchicall Magi<g ref="char:EOLhyphen"/>ſtrates can be known or diſtinguiſhed in their perſons or power by the Law of God, then ſub<g ref="char:EOLhyphen"/>ordinates cannot be convinced of the lawfulneſs of their perſonall calling and power by any divine directory.</p>
+               <p>But in a Chriſtian Commonwealth neither Parochiall, Provinciall, or Monarchicall Ma<g ref="char:EOLhyphen"/>giſtrates can be known or diſtinguiſhed in their perſons or power by the Law of God.</p>
+               <p>Therefore by a divine directory, ſubordinates cannot be convinced of the lawfulneſs of the perſonall calling and power of any ſuch Magi<g ref="char:EOLhyphen"/>giſtrates.</p>
+            </div>
+            <div n="19" type="proposition">
+               <pb n="12" facs="tcp:173096:8"/>
+               <head>XIX.</head>
+               <p>If God hath no where intailed the Govern<g ref="char:EOLhyphen"/>ment of many families upon the eldeſt Son of the precedent governour, and if the Crown of <hi>Jſrael</hi> did not deſcend in a right line by priority of bloud, then is there not either a divine pre<g ref="char:EOLhyphen"/>cent or preſident to juſtifie a claime to Magiſtra<g ref="char:EOLhyphen"/>cy by hereditary ſucceſſion.</p>
+               <p>But neither hath God intayled the govern<g ref="char:EOLhyphen"/>ment of many families upon the eldeſt Sonne of the precedent governor, nor did the Crowne of <hi>Iſrael</hi> deſcend in a right line by priority of bloud.</p>
+               <p>Therefore he that claimes a Crown by ſucceſ<g ref="char:EOLhyphen"/>ſion, wil never be able to make out a good Title by the bare plea of a divine Charter.</p>
+            </div>
+            <div n="20" type="proposition">
+               <head>XX.</head>
+               <p>If the juriſdiction of <hi>Auguſtus Caeſar</hi> did ex<g ref="char:EOLhyphen"/>tend to the whole known world, then, if go<g ref="char:EOLhyphen"/>vernment ought to be hereditarily monarchi<g ref="char:EOLhyphen"/>call no Nation of the world can at this day be under any known lawfull Monarchicall autho<g ref="char:EOLhyphen"/>rity.</p>
+               <p>But the whole known world was under the juriſdiction of <hi>Auguſtus Caeſar. Luke</hi> 2. 1.</p>
+               <p>Therefore the ſeverall Nations of the world cannot at this day be under any known lawfull authority, if God hath appointed government to be hereditarily Monarchicall.</p>
+            </div>
+            <div n="21" type="proposition">
+               <pb n="13" facs="tcp:173096:8"/>
+               <head>XXI.</head>
+               <p>If the laſt line of Engliſh Kings did derive their title to the Crown from Conqueſt, and if there were any Kings in <hi>England</hi> before them, then, if the Crowns of Kings ought by the or<g ref="char:EOLhyphen"/>dinance of God to deſcend to their next legiti<g ref="char:EOLhyphen"/>mate heirs, the title of the laſt Kings was inva<g ref="char:EOLhyphen"/>lid.</p>
+               <p>But the laſt line of Engliſh Kings did derive their title to the Crown from Conqueſt, and there were Kings in <hi>England</hi> before them.</p>
+               <p>Therefore, if the Crownes of Kings ought by Gods ordinance to deſcend in a right line to their next legitimate heirs, the title of the laſt Kings was uſurped, and whatſoever any of them acted as Kings was unlawfull and is voydable.</p>
+            </div>
+            <div n="22" type="proposition">
+               <head>XXII.</head>
+               <p>If the limits and precincts of no ſuch Magi<g ref="char:EOLhyphen"/>ſtrates are laid out by any divine boundaries, then can they not infallibly know of what peo<g ref="char:EOLhyphen"/>ple they reſpectively may lawfully take cogni<g ref="char:EOLhyphen"/>ſance by any theologicall diſpenſatory.</p>
+               <p>But the limits and precincts of no ſuch Magi<g ref="char:EOLhyphen"/>ſtrates are laid out by divine boundaries.</p>
+               <p>Therefore of what people they reſpective may lawfully take cogniſance is not determinable by Theology.</p>
+            </div>
+            <div n="23" type="proposition">
+               <head>XXIII.</head>
+               <p>If no ſuch Magiſtrates be diſtinguiſhable in their perſons, power or precincts by any divine
+<pb n="14" facs="tcp:173096:9"/>
+directory, then neither Magiſtrates nor Subor<g ref="char:EOLhyphen"/>dinates can bee convinced of their reciprocall allegeance, but by ſome humane demonſtration.</p>
+               <p>But no ſuch Magiſtrates are diſtinguiſhable in their perſons, power or precincts by any divine directory.</p>
+               <p>Therefore neither Parochiall, Provinciall, or Monarchicall Magiſtrates, nor their Subordi<g ref="char:EOLhyphen"/>nates can be convinced of their reciprocall alle<g ref="char:EOLhyphen"/>geance, but by ſome humane demonſtration.</p>
+            </div>
+            <div n="24" type="proposition">
+               <head>XXIV.</head>
+               <p>If it be a humane Law only by which the per<g ref="char:EOLhyphen"/>ſons, power and precincts of all ſuch Magiſtrates are known and diſtinguiſhed, ſo as to create a mutuall allegeance between them and their Sub<g ref="char:EOLhyphen"/>ordinates, then no ſuch allegeance can be created unleſs ſome knowne perſons have a lawfull power to make Lawes.</p>
+               <p>But it is a humane Law onely by which ſuch perſons are ſo diſtinguiſhed as to create a mutu<g ref="char:EOLhyphen"/>all allegeance.</p>
+               <p>Therefore, unleſs ſome known perſons have a lawfull power to make Lawes, no ſuch allege<g ref="char:EOLhyphen"/>ance can be created.</p>
+            </div>
+            <div n="25" type="proposition">
+               <head>XXV.</head>
+               <p>If no man be bound to ſubmit to ſuch Lawes as are conſtituted by an obtruded power, then the Law-makers ought to have a known lawfull power over that whole community, to which they pretend a power of giving Lawes.</p>
+               <p>
+                  <pb n="15" facs="tcp:173096:9"/>
+But n o man is bound to ſubmit to Lawes conſtituted by an obtruded power.</p>
+               <p>Therefore the Law-makers ought to have a known lawful power over the whole Com<g ref="char:EOLhyphen"/>munity.</p>
+            </div>
+            <div n="26" type="proposition">
+               <head>XXVI.</head>
+               <p>If the Authority of the Law makers ought to extend lawfully to the whole Community, then it muſt be ſuch as relating to all, doth not thereby infringe any known Law of God.</p>
+               <p>But their Authority by whom Lawes are made, ought to extend lawfully to the whole Community.</p>
+               <p>Therefore, it muſt be ſuch as relating to all, no divine Law is thereby infringed.</p>
+            </div>
+            <div n="27" type="proposition">
+               <head>XXVII.</head>
+               <p>If the Law makers Authority ought to be ſuch as doth not infringe any known Law of God, and if originally the paternal juriſdicti<g ref="char:EOLhyphen"/>on be by divine right ſole and independent, then in believing aſſociations, none have a juſtifiable and ſatisfactory calling to make Laws and conſtitute publique Magiſtrates, either Ci<g ref="char:EOLhyphen"/>vil or Eccleſiaſtical, but the fathers of families or ſome deputed by them.</p>
+               <p>But the Authority of Law-makers muſt be ſuch as doth not treſpaſſe upon any known Law of God, and the paternal Prerogative is ſole and independent.</p>
+               <p>Therefore none have a warrantable power to
+<pb n="16" facs="tcp:173096:10"/>
+give Lawes or impoſe Magiſtrates either Civil or Eccleſiaſtical upon believing aſſociates, but the fatherhood or their deputies.</p>
+            </div>
+            <div n="28" type="proposition">
+               <head>XXVIII.</head>
+               <p>If the Magiſtratical power neither of Kings, Prieſts, or Judges of <hi>Iſrael,</hi> did conſiſt in ma<g ref="char:EOLhyphen"/>king, but in declaring Law, then as they were Kings, Prieſts, and Judges, they had no Legi<g ref="char:EOLhyphen"/>ſlative Authority.</p>
+               <p>But the Magiſtratical power neither of Kings Prieſts, or Judges of <hi>Iſrael</hi> did conſiſt in ma<g ref="char:EOLhyphen"/>king, but in declaring Law.</p>
+               <p>Therefore they had not any Legiſlative Au<g ref="char:EOLhyphen"/>thority belonging to them, as they were either Kings, Prieſts, or Judges.</p>
+            </div>
+            <div n="29" type="proposition">
+               <head>XXIX.</head>
+               <p>If neither the Kings, Prieſts, or Judges of <hi>Iſrael</hi> had a Legiſlative power appending to their offices, and if there be no Law of God that giveth ſuch power to ſuch officers, then neither Kings, Prieſts, or Judges have by divine right a Legiſlative power in reſpect of their offices.</p>
+               <p>But neither the Kings, Prieſts, or Judges of that Nation had a Legiſlative power appending to their offices, nor is there any Law of God that giveth ſuch power to ſuch Magiſtrates.</p>
+               <p>Therefore by divine right, neither Kings, Prieſts, or Judge have a Legiſlative power by vertue of any of their offices.</p>
+            </div>
+            <div n="30" type="proposition">
+               <pb n="17" facs="tcp:173096:10"/>
+               <head>XXX.</head>
+               <p>If in Chriſtian aſſociations none have a war<g ref="char:EOLhyphen"/>rantable and ſatisfactory calling to make Lawes or conſtitute publique Magiſtrates of any ſort whatſoever, but the fathers themſelves, or ſome deputed by them, then the Authority of the fa<g ref="char:EOLhyphen"/>therhood of aſſociated Chriſtians, either per<g ref="char:EOLhyphen"/>ſoually or repreſentatively aſſembled, is ſole in<g ref="char:EOLhyphen"/>dependent and ſupreme in all cauſes, as well Civil as Eccleſiaſtical.</p>
+               <p>But in Chriſtian aſſociations none have a warrantable and ſatisfactory calling to make Lawes or conſtitute publick Magiſtrates of any ſort whatſoever, but the fathers themſelves or ſome deputed by them.</p>
+               <p>Therefore the Authority of the fatherhood of aſſociated Chriſtians, either perſonally or repreſentatively aſſembled is ſole independent and ſupreme in all cauſes, as well Eccleſiaſtical as Civil.</p>
+            </div>
+            <div n="31" type="proposition">
+               <head>XXXI.</head>
+               <p>If it be not diſcernable who amongſt the in<g ref="char:EOLhyphen"/>dividual members of a Chriſtian Common<g ref="char:EOLhyphen"/>wealth is more particularly inſpired with the gifts of the Spirit then another, then in ſuch aſſociations the gifts of the Spirit are not con<g ref="char:EOLhyphen"/>vincing evidence of the lawful calling of any Magiſtrates.</p>
+               <p>But it is not diſcernable who amongſt the in<g ref="char:EOLhyphen"/>dividual members of a Chriſtian Common<g ref="char:EOLhyphen"/>wealth
+<pb n="18" facs="tcp:173096:11"/>
+is more particularly inſpired with the gifts of the ſpirit then another.</p>
+               <p>Therefore the gifts of the Spirit are not competent to diſtinguiſh who in ſuch aſſociati<g ref="char:EOLhyphen"/>ons ought to be Magiſtrates, and who ſubor<g ref="char:EOLhyphen"/>dinates.</p>
+            </div>
+            <div n="32" type="proposition">
+               <head>XXXII.</head>
+               <p>If in the aſſociations of believers the gifts of the Spirit be not competent whereby to deter<g ref="char:EOLhyphen"/>mine who ought therein to be Magiſtrates, then is there no other way to diſtinguiſh between Magiſtrates and ſubordinates, but by the rule of Nature or conſent.</p>
+               <p>But in the aſſociations of believers, the gifts of the Spirit are not competent whereby to de<g ref="char:EOLhyphen"/>termine who ought therein to be Magiſtrates.</p>
+               <p>Therefore there is no other way to diſtin<g ref="char:EOLhyphen"/>guiſh between Magiſtrates and ſubordinates in ſuch aſſociations, but by the rule of Nature or Conſent.</p>
+            </div>
+            <div n="33" type="proposition">
+               <head>XXXIII.</head>
+               <p>If the Magiſtrates of a Chriſtian Comonwealth are no other way diſtinguiſhable from ſubor<g ref="char:EOLhyphen"/>dinates but by the rule of Nature or Conſent, then the Government of Chriſtian aſſociations falls wholly under a natural and prudential ſpeculation.</p>
+               <p>But the Magiſtrates of a Chriſtian aſſociati<g ref="char:EOLhyphen"/>on are no other way diſtinguiſhable from ſub<g ref="char:EOLhyphen"/>ordinates, but by the rule of Nature or Conſent.</p>
+               <p>
+                  <pb n="19" facs="tcp:173096:11"/>
+Therefore the Government of a Chriſtian Commonwealth falls altogether under a natu<g ref="char:EOLhyphen"/>ral and prudential ſpeculation.</p>
+            </div>
+            <div n="34" type="proposition">
+               <head>XXXIV.</head>
+               <p>If the Government of a Chriſtian Com<g ref="char:EOLhyphen"/>monwealth falls wholly under a natural and prudential ſpeculation, then they who are of the Miniſterial function have not therein any ſingular priviledge to a gubernative power by divine diſpenſation.</p>
+               <p>But the Government of a Chriſtian Com<g ref="char:EOLhyphen"/>monwealth hath its form and being meerly from prudence and Nature.</p>
+               <p>Therefore they who are of the Miniſterial function, have therein no ſingular right to a gu<g ref="char:EOLhyphen"/>bernative power by divine diſpenſation.</p>
+            </div>
+            <div n="35" type="proposition">
+               <head>XXXV.</head>
+               <p>If no Chriſtian Father be prohibited the Graces of the Spirit, or before aſſociation for<g ref="char:EOLhyphen"/>bidden by God to exerciſe the Miniſterial fun<g ref="char:EOLhyphen"/>ction in his own family, then after aſſociation they have an equal liberty to officiate therein, notwithſtanding any divine prohibition.</p>
+               <p>But no Chriſtian Father is prohibited the Graces of the Spirit, or before aſſociation for<g ref="char:EOLhyphen"/>bidden to exerciſe the Miniſterial function in his own family.</p>
+               <p>Therefore, notwithſtanding any divine pro<g ref="char:EOLhyphen"/>hibition, they have after aſſociation an equal liberty of officiating therein.</p>
+            </div>
+            <div n="36" type="proposition">
+               <pb n="20" facs="tcp:173096:12"/>
+               <head>XXXVI.</head>
+               <p>If after aſſociation the believing fathers of Chriſtian families have an equall liberty to of<g ref="char:EOLhyphen"/>ficiate in the Miniſterial function, then in a Chriſtian Commonwealth the perſonal calling to the Miniſterial office proceeds not from di<g ref="char:EOLhyphen"/>vine inauguration.</p>
+               <p>But after aſſociation, the aſſociated believing fathers of Chriſtian families have an equal power to officiate in the Miniſterial function, notwithſtanding any divine prohibition.</p>
+               <p>Therefore the perſoual calling to the publike Miniſterial office muſt neceſſarily proceed from politick and prudential conſiderations.</p>
+            </div>
+            <div n="37" type="proposition">
+               <head>XXXVII.</head>
+               <p>If in a Chriſtian Commonwealth the perſo<g ref="char:EOLhyphen"/>nal diſpoſing of the Miniſterial office be from humane inſtitution, and if believing fathers have originally an equal diſciplinary power, then meerly the calling to the Miniſterial office cannot make a juſtifiable claim to a diſciplina<g ref="char:EOLhyphen"/>ry Authority.</p>
+               <p>But in ſuch a Commonwealth the perſonal calling to the Miniſterial office is from humane inſtitution, and believing fathers have origi<g ref="char:EOLhyphen"/>nally an equal diſciplinary power.</p>
+               <p>Therefore a claim to a diſciplinary Authori<g ref="char:EOLhyphen"/>ty cannot be made good meerly by the calling to the Miniſterial office.</p>
+            </div>
+            <div n="38" type="proposition">
+               <pb n="21" facs="tcp:173096:12"/>
+               <head>XXXVIII.</head>
+               <p>If the Apoſtles thought it not reaſonable that they ſhould be obſtructed in executing their Miniſterial office by regulating the diſtribution of publike Almes to diſtreſſed Chriſtian wid<g ref="char:EOLhyphen"/>dowes, and if nothing belonging to diſcipline agrees better with the preaching of the Goſpel then the duties of Charity, then a reaſon will be hardly found, why they who are ſet apart for Doctrine muſt therefore neceſſarily have to do with diſcipline.</p>
+               <p>But the Apoſtles thought it not reaſonable that they ſhould be hindered in their Miniſteri<g ref="char:EOLhyphen"/>al employment by regulating the diſtribution of publike Almes to diſtreſſed widowes, and no<g ref="char:EOLhyphen"/>thing belonging to diſcipline agrees better with the drofeſſion of a Miniſter of the Goſpel, then the duties of charity. <hi>Act.</hi> 6. 2.</p>
+               <p>Therefore an Apoſtolical reaſon is not to be found, why the Miniſters of the Goſpel muſt neceſſarily be Magiſtrates in office.</p>
+            </div>
+            <div n="39" type="proposition">
+               <head>XXXIX.</head>
+               <p>If they who are Miniſters in office have not thereby any priviledge to be Magiſtrates in of<g ref="char:EOLhyphen"/>fice, then the Epiſcopal office is not inſeparably annsxed to the Miniſterial function.</p>
+               <p>But ehey who are Miniſters in office have not thereby any priviledge to be Magiſtrates in office.</p>
+               <p>Therefore I cannot conceive it to be any pro<g ref="char:EOLhyphen"/>fanation
+<pb n="22" facs="tcp:173096:13"/>
+of the office, ſhould ſome Lay-Elders be appointed to ſupply the places of ſuch Bi<g ref="char:EOLhyphen"/>ſhops as were in the Churches of the primitive Chriſtians.</p>
+            </div>
+            <div n="40" type="proposition">
+               <head>XL.</head>
+               <p>If the Faith of the primitive Chriſtians was the onely cauſe why that polity which they had peculiar to themſelves, was accounted holy, then is there no cauſe why ſome part of the polity of aſſociated believing families ſhould be eſteemed more or leſſe holy then ſome other.</p>
+               <p>But the Faith of the primitive Chriſtians was that alone for which the polity which they had peculiar to themſelves was accounted holy.</p>
+               <p>Therefore there is no cauſe why the polity of believing aſſociates ſhould be eſteemed more or leſſe holy in one part then in another.</p>
+            </div>
+            <div n="41" type="proposition">
+               <head>XLI.</head>
+               <p>If it be through Faith onely that holineſſe be imputed to man by God, and if whereſoe<g ref="char:EOLhyphen"/>ver Faith is, there holineſſe be imputed, then ſanctimony is not to be attributed more to one believing member of a Chriſtian aſſociation, then to another.</p>
+               <p>But it is through Faith onely that holineſſe is imputed to man by God, and whereſoever Faith is, there holineſſe is imputed.</p>
+               <p>Therefore ſanctimony is not to be attributed more to one believing member of a Chriſtian Commonwealth then to another.</p>
+            </div>
+            <div n="42" type="proposition">
+               <head>XLII.</head>
+               <p>If holineſſe be an attribute belonging as well
+<pb n="23" facs="tcp:173096:13"/>
+to all as to any believers, and to every part as well as to any part of the polity of believing aſſociates, then the native power of a believing Fatherhood is not made leſſe by a pretended perſonal or political holineſſe.</p>
+               <p>But holineſſe is an attribute belonging as well to all as to any believers, and to every part as well as to any part of the polity of believing aſſociates.</p>
+               <p>Therefore a pretended perſonal or political holineſſe, cannot take away the native power of a believing Fatherhood.</p>
+            </div>
+            <div n="43" type="proposition">
+               <head>XLIII.</head>
+               <p>If the authority of a Chriſtian Common<g ref="char:EOLhyphen"/>wealth be ſolely and independently in the Fa<g ref="char:EOLhyphen"/>therhood, and if lawfull authority ought to be obeyed, then ought communicated Chriſtians to ſubſcribe wholly to that polity which is conſti<g ref="char:EOLhyphen"/>tuted by the Fatherhood, whether perſonally or electively congregated.</p>
+               <p>But the authority of a Chriſtian Common<g ref="char:EOLhyphen"/>wealth is ſolely and independently in the Fa<g ref="char:EOLhyphen"/>therhood and lawful authority ought not to be diſobeyed.</p>
+               <p>Therefore communicated Chriſtians are reli<g ref="char:EOLhyphen"/>giouſly bound to ſubſcribe wholly to that poli<g ref="char:EOLhyphen"/>ty which is conſtituted by the authority of the Fatherhood.</p>
+            </div>
+            <div n="44" type="proposition">
+               <head>XLIIII.</head>
+               <p>If the Fatherhood of aſſociated Chriſtians have a right of power, ſole independent and
+<pb n="24" facs="tcp:173096:14"/>
+extendable to the whole Community, then is it no more lawful for any member therein aſſoci<g ref="char:EOLhyphen"/>ated to appeale from their determinations to his own judgement, or to a forraign Judicato<g ref="char:EOLhyphen"/>ry, in matters tending to publike uniform wor<g ref="char:EOLhyphen"/>ſhip, then in thoſe which tend to the perſecuti<g ref="char:EOLhyphen"/>on of peace and proſperity.</p>
+               <p>But the authority of the Fatherhood of aſſociated Chriſtians is ſole, independent, and extendably to the whole Community.</p>
+               <p>Therefore it is as unlawful for any aſſocia<g ref="char:EOLhyphen"/>ted member thereof to appeal from their de<g ref="char:EOLhyphen"/>terminations to his own judgement, or to a forraign Judicatory in matters tending to pub<g ref="char:EOLhyphen"/>like uniform worſhip, as in thoſe which tend to the preſervation of peace and propriety.</p>
+            </div>
+            <div n="45" type="proposition">
+               <head>XLV.</head>
+               <p>If the authority of the Fatherhood be ſole and independent in all cauſes, then no forraign power can aſſume a juriſdiction over any mem<g ref="char:EOLhyphen"/>ber of a Chriſtian aſſociation without ſin.</p>
+               <p>Bue the authority of the Fatherhood is ſole and independent in all cauſes.</p>
+               <p>Therefore it is a ſin for any forraign power to aſſume a juriſdiction over any member of a Chriſtian aſſociation.</p>
+            </div>
+            <div n="46" type="proposition">
+               <head>XLVI.</head>
+               <p>If no forraign power can aſſume a juriſdi<g ref="char:EOLhyphen"/>ction over any aſſociated members of a Chri<g ref="char:EOLhyphen"/>ſtian Commonwealth without ſin, then the
+<pb n="25" facs="tcp:173096:14"/>
+pretended <hi>Roman</hi> Hierarchy is a ſinful uſurpa<g ref="char:EOLhyphen"/>tion.</p>
+               <p>But no forraign power can aſſume a juriſ<g ref="char:EOLhyphen"/>diction over any aſſociated members of a Chri<g ref="char:EOLhyphen"/>ſtian Commonwealth without ſin.</p>
+               <p>Therefore the pretended univerſal <hi>Roman</hi> Hierarchy is uſurpatious and unlawful.</p>
+            </div>
+            <div n="47" type="proposition">
+               <head>XLVII.</head>
+               <p>If the paternal authority be ſole, equal, and independent, then none hath by his own right a preheminence above another to act in their National Councels.</p>
+               <p>But the paternal authority is originally ſole, equal, and independent.</p>
+               <p>Therefore in a Chriſtian Commonwealth no Father hath by his own right more or leſſe power then another, to act in their National Aſſemblies.</p>
+            </div>
+            <div n="48" type="proposition">
+               <head>XLVIII.</head>
+               <p>If in the aſſociations of believing Fathers, no Father hath a greater priviledge then ano<g ref="char:EOLhyphen"/>ther to act in their National Conventions, then if in their repreſentative Aſſemblies one can<g ref="char:EOLhyphen"/>not act unleſs he be elected, no more may any other.</p>
+               <p>But in Chriſtian aſſociations no one Father hath a greater priviledge to act in their Com<g ref="char:EOLhyphen"/>mon-Councels then another.</p>
+               <p>Therefore, if in their repreſentative Conven<g ref="char:EOLhyphen"/>tions one cannot act unleſs he be elected, no more may any other.</p>
+            </div>
+            <div n="49" type="proposition">
+               <pb n="26" facs="tcp:173096:15"/>
+               <head>XLIX.</head>
+               <p>If in their repreſentative Councels none hath more power to act then another, unleſs he be elected, then the pretended power of Kings and Lords ſpirituall and temporal, to act by vertue of their own rights is not juſtifyable.</p>
+               <p>But in the repreſentative Councels of aſſocia<g ref="char:EOLhyphen"/>ted beleeving Fathers, none hath more power to act then another, unleſs he be elected.</p>
+               <p>Therefore the pretended power of Kings and Lords ſpirituall and temporall to act in ſuch Councels, by vertue of their own rights is not juſtifiable.</p>
+            </div>
+            <div n="50" type="proposition">
+               <head>L.</head>
+               <p>If cuſtome cannot deſtroy a right grounded upon an univerſall Law of God, the the au<g ref="char:EOLhyphen"/>thority of the Fatherhood cannot be voided by any cuſtomary claimes.</p>
+               <p>But cuſtome cannot deſtroy a right grounded upon an univerſall Law of God. <hi>Mat.</hi> 15. 3. 4. 9.</p>
+               <p>Therefore no cuſtomary claimes can make void the ſole and independent authority of a Chriſtian Fatherhood.</p>
+            </div>
+            <div n="51" type="proposition">
+               <head>LI.</head>
+               <p>If the government of a Chriſtian Common<g ref="char:EOLhyphen"/>wealth be ſolely and independently in the Fa<g ref="char:EOLhyphen"/>therhood then whoſoever aſſumes a power in competition with the Common-councell of a beleeving Fatherhood, uſurps upon their autho<g ref="char:EOLhyphen"/>rity, and ſins againſt Gods ordinance.</p>
+               <p>
+                  <pb n="27" facs="tcp:173096:15"/>
+But the government of a Chriſtian Com<g ref="char:EOLhyphen"/>monwealth is ſolely and independently in the Fatherhood.</p>
+               <p>Therefore whoſoever aſſumes a power in competition with them, or with their repreſen<g ref="char:EOLhyphen"/>tatives, doth thereby ſin againſt Gods ordinance.</p>
+            </div>
+            <div n="52" type="proposition">
+               <head>LII.</head>
+               <p>If the Fatherhood of Chriſtian aſſociations have a ſole and independent power, and if it be a ſin to uſurp upon that authority, then may the repreſentative Truſtees of the Fatherhood, law<g ref="char:EOLhyphen"/>fully reſiſt any ſuch uſurpation.</p>
+               <p>But the authority of the Fatherhood of aſſoci<g ref="char:EOLhyphen"/>ated Chriſtians is ſole and independent, and it is a ſin to uſurp upon that authority.</p>
+               <p>Therefore any ſuch uſurpation may lawfully be reſiſted by the repreſentative Truſtees of the Fatherhood.</p>
+            </div>
+            <div n="53" type="proposition">
+               <head>LIII.</head>
+               <p>If it be lawfully in the power of the repreſen<g ref="char:EOLhyphen"/>tative Truſtees of the Fatherhood, to reſiſt any ſuch uſurpation; then they are bound in ho<g ref="char:EOLhyphen"/>nour and religion, not to ſuffer any to be com<g ref="char:EOLhyphen"/>petitors with them in government, if they have a potency wherewith to oppoſe.</p>
+               <p>But it is lawfully in the power of the repreſen<g ref="char:EOLhyphen"/>tative Truſtees of the Fatherhood to reſiſt any uſurped power.</p>
+               <p>Therefore, if they be in a condition to prevent it, it ſtands not with their honour, nor honeſty to ſuffer any to be their competitors.</p>
+            </div>
+            <div n="54" type="proposition">
+               <pb n="28" facs="tcp:173096:16"/>
+               <head>LIIII.</head>
+               <p>If the Truſtees of the Fatherhood cannot in honor or honeſty ſuffer any to be ſharers with them in government, they having a potency to oppoſe, then had it been diſhoneſt and diſhonor<g ref="char:EOLhyphen"/>able in the preſent Truſtees of the Fatherhood, to yield an inherent right in the Militia and Negative voice to a King in their power, who had taken up Arms to maintain the incroach<g ref="char:EOLhyphen"/>ment.</p>
+               <p>But the Truſtees of the Fatherhood cannot in honour or honeſty ſuffer any to be ſharers with them in government, they being in an op<g ref="char:EOLhyphen"/>poſing condition.</p>
+               <p>Therefore had they yeelded an inherent right in the Militia and Negative voice to a King who had put the Nation to a vaſt expence in a war raiſed to maintain the incroachment, they had neither done honeſtly nor honourably.</p>
+            </div>
+            <div n="55" type="proposition">
+               <head>LV.</head>
+               <p>If the ſupreme power be ſolely and indepen<g ref="char:EOLhyphen"/>dently in the Fatherhood, and if their preſent Truſtees did by their publique Remonſtrances engage the people in a chargable war againſt the contrary pretences, then if after the ſword had determined the controverſie, they had yeelded up their ſole and independent intereſts they might deſervedly have been noted with the brand of infidelity to all ſucceeding gene<g ref="char:EOLhyphen"/>rations.</p>
+               <p>
+                  <pb n="29" facs="tcp:173096:16"/>
+But the ſupreme authority is ſolely and in<g ref="char:EOLhyphen"/>dependently in the Fatherhood, and their pre<g ref="char:EOLhyphen"/>ſent Truſtees had engaged the people in a chargeable war by their publique Remonſtrances againſt the contrary pretenſions.</p>
+               <p>Therefore they might deſervedly have been noted with the ignominious brand of infideli<g ref="char:EOLhyphen"/>ty to all ſucceeding generations, had they, after the ſword had determined the controverſie, yielded up any part of that ſole and indepen<g ref="char:EOLhyphen"/>dent authority with which they were intru<g ref="char:EOLhyphen"/>ſted.</p>
+            </div>
+            <div n="56" type="proposition">
+               <head>LVI.</head>
+               <p>If the Lawes now in being do not agree in all points with the Lawes of former ages, then, if the preſent Lawes be of any force, it muſt ne<g ref="char:EOLhyphen"/>ceſſarily be acknowledged that humane Lawes are alterable and repealable.</p>
+               <p>But the Lawes now in being do not agree in all points with the Lawes of former ages.</p>
+               <p>Therefore, if the preſent Lawes be of any force, it muſt be acknowledged that humane Lawes are alterable and repealeable.</p>
+            </div>
+            <div n="57" type="proposition">
+               <head>LVII.</head>
+               <p>If humane National Lawes may lawfully be altered or repealed, then they may be repealed or altered by that authority, or the like to that by which they were or ought to have been made.</p>
+               <p>But it is lawful to alter or repeal any humane National Lawes.</p>
+               <p>
+                  <pb n="30" facs="tcp:173096:17"/>
+Therefore they may be altered or repealed by that authority or the like to that by which they were or ought to have been made.</p>
+            </div>
+            <div n="58" type="proposition">
+               <head>LVIII.</head>
+               <p>If humane Lawes may be altered or repealed by that authority or the like to that by which they were made, then the Fatherhood of Chri<g ref="char:EOLhyphen"/>ſtian aſſociations may alter or repeale any mu<g ref="char:EOLhyphen"/>nicipal Lawes therein conſtituted.</p>
+               <p>But humane Lawes may be altered or repeal<g ref="char:EOLhyphen"/>ed by that authority or the like to that by which they were or ought to have been made.</p>
+               <p>Therefore the municipal Lawes of Chriſtian aſſociations may be altered or repealed by the Fatherhood or their repreſentatives.</p>
+            </div>
+            <div n="59" type="proposition">
+               <head>LIX.</head>
+               <p>If humane Lawes may be altered or repealed by the Fatherhood, and if Magiſtrates Parochi<g ref="char:EOLhyphen"/>al, Provincial, and Monarchical be of humane inſtitution, then any ſuch Magiſtrates may be outed of their authority by an act of the Fa<g ref="char:EOLhyphen"/>therhood, either perſonally or repreſentatively aſſembled.</p>
+               <p>But municipal Lawes may be altered or re<g ref="char:EOLhyphen"/>pealed by the Fatherhood, and all ſuch Magi<g ref="char:EOLhyphen"/>ſtrates be of humane inſtitution.</p>
+               <p>Therefore any ſuch Magiſtrates may be out<g ref="char:EOLhyphen"/>ed of their authority by an act of the Father<g ref="char:EOLhyphen"/>hood
+<pb n="31" facs="tcp:173096:17"/>
+whether perſonally or repreſentatively aſſembled.</p>
+            </div>
+            <div n="60" type="proposition">
+               <head>LX.</head>
+               <p>If in the Engliſh Nation there hath been at one and the ſame time, many Kings indepen<g ref="char:EOLhyphen"/>dent one of another, from whom the laſt Kings could not derive any intereſt then to make out a juſtifiable title to the late Kings, it muſt bee confeſſed that Kings may be depoſed.</p>
+               <p>But in the Engliſh Nation, there hath beene at one and the ſame time, many Kings inde<g ref="char:EOLhyphen"/>pendent one of another, from whom the laſt Kings could not derive any intereſt.</p>
+               <p>Therefore the title of the late Kings was in<g ref="char:EOLhyphen"/>valid, unleſs Kings may lawfully be depoſed.</p>
+            </div>
+            <div n="61" type="proposition">
+               <head>LXI.</head>
+               <p>If before aſſociation the Fathers of a Chriſti<g ref="char:EOLhyphen"/>an Commonwealth were equally independent, then after aſſociation they are equally obliged to ſubmit to the Lawes therein conſtituted.</p>
+               <p>But before aſſociation, the Fathers of a Chriſtian Commonwealth were equally inde<g ref="char:EOLhyphen"/>pendent.</p>
+               <p>Therefore being aſſociated, they are equally bound to ſubmit to the Lawes therein conſtitu<g ref="char:EOLhyphen"/>ted.</p>
+            </div>
+            <div n="62" type="proposition">
+               <head>LXII.</head>
+               <p>If the members of a Commonwealth be equal<g ref="char:EOLhyphen"/>ly bound to ſubmit to the Lawes therein conſti<g ref="char:EOLhyphen"/>tuted,
+<pb n="32" facs="tcp:173096:18"/>
+then, although the collective body of the Fatherhood be independent, yet independency ceaſeth as to any individuall Member.</p>
+               <p>But the Members of a Commonwealth are equally bound to ſubmit to the Lawes therein conſtituted.</p>
+               <p>Therefore as to any individuall Members of a Commonwealth independency ceaſeth after aſ<g ref="char:EOLhyphen"/>ſociation.</p>
+            </div>
+            <div n="63" type="proposition">
+               <head>LXIII.</head>
+               <p>If every individuall Member of a Common<g ref="char:EOLhyphen"/>wealth be equally lyable to the penalties of the Lawes therein conſtituted, then for the ſame cauſe that any one may be put to death, for the ſame may any other.</p>
+               <p>But every individual member of a Common<g ref="char:EOLhyphen"/>wealth, is equally lyable to the Lawes therein conſtituted</p>
+               <p>Therefore for the ſame cauſe that any one may be put to death, for the ſame may any o<g ref="char:EOLhyphen"/>ther.</p>
+            </div>
+            <div n="64" type="proposition">
+               <head>LXIV.</head>
+               <p>If the Lawmaker may decree him to death, who acts any thing by which the eſtabliſhed go<g ref="char:EOLhyphen"/>vernment of a Commonwealth may be indan<g ref="char:EOLhyphen"/>gered, and if the legiſlative power be ſolely in the Fatherhood, then much more may they or<g ref="char:EOLhyphen"/>der him to death, who acts any thing deſtructive to that authority, by which only ſuch govern<g ref="char:EOLhyphen"/>ment can be eſtabliſhed.</p>
+               <p>
+                  <pb n="33" facs="tcp:173096:18"/>
+But Lawmakers may decree him to death, who acts any thing by which the eſtabliſhed government of a Commonwealth may be in<g ref="char:EOLhyphen"/>dangered, and the legiſlative power is ſolely in the Fatherhood.</p>
+               <p>Therefore much more may they order him to death, by whom anything is acted deſtructive to that authority, by which onely ſuch govern<g ref="char:EOLhyphen"/>ment can be eſtabliſhed.</p>
+            </div>
+            <div n="65" type="proposition">
+               <head>LXV.</head>
+               <p>If the ſetting up of the Kings of <hi>Iſrael,</hi> is not ſo clearely approved by God, as the puniſhing of their offending Kings by death, then it is more reaſonable to conclude from what was demonſtrated by God to that Nation, that of<g ref="char:EOLhyphen"/>fending Kings ought to be puniſhed, then that the ſetting up of Kings is neceſſarily injoyned.</p>
+               <p>But the ſetting up of Kings, hath not ſo cleare an approbation from God in that Nation, as the puniſhing of their offending Kings. 2 <hi>Kings</hi> 9. <hi>ch.</hi> 2 <hi>Kings</hi> 10. 30.</p>
+               <p>Therefore from what was demonſtrated by God to the children of <hi>Iſrael,</hi> it is more reaſo<g ref="char:EOLhyphen"/>nable to conclude, that peccant Kings ought to be puniſhed, then that all Nations ought to be governed by Kings.</p>
+            </div>
+            <div n="66" type="proposition">
+               <head>LXVI.</head>
+               <p>If by the gifts of grace and nature, the Father<g ref="char:EOLhyphen"/>hood of a Chriſtian aſſociation, have from God a ſole independent and ſupreme authority, and
+<pb n="34" facs="tcp:173096:19"/>
+if a Chriſtian Fatherhood, Elderſhip and Preſ<g ref="char:EOLhyphen"/>bytery do ſignifie all one and the ſame thing, then in ſuch aſſociations Presbyterian Govern<g ref="char:EOLhyphen"/>ment inſtituted by God is not to be found, but iu the perſonal or repreſentative Aſſembly of the Fatherhood.</p>
+               <p>But by the gifts of Grace and Nature, the Fa<g ref="char:EOLhyphen"/>therhood of a Chriſtian aſſociation hath from God a ſole independent and ſupreme authority, and a Chriſtian Fatherhood, Elderſhip, and Presbytery do ſignifie all one &amp; the ſame thing.</p>
+               <p>Therefore unleſſe it be in the perſonal or re<g ref="char:EOLhyphen"/>preſentative Aſſembly of the Fatherhood, Preſ<g ref="char:EOLhyphen"/>byterian Government inſtituted by God is not to be found in a Chriſtian Commonwealth; and they who pretending for Presbyterian Govern<g ref="char:EOLhyphen"/>ment do quarrel with the repreſentative Aſſem<g ref="char:EOLhyphen"/>bly of the Fatherhood, do contend with that for which they ſeem to contend.</p>
+            </div>
+            <div n="67" type="proposition">
+               <head>LXVII.</head>
+               <p>If in the eſtabliſhed Government of a popu<g ref="char:EOLhyphen"/>lous Commonwealth, it be prudentially neceſ<g ref="char:EOLhyphen"/>ſary that there be Governours of different qualifications, to whom thoſe who are ſubordi<g ref="char:EOLhyphen"/>nate ought to be in ſubjection; and if where ſuch Governours are, there neceſſarily muſt be priority and inferiority, and degrees of both, then in ſuch a Commonwealth the native pari<g ref="char:EOLhyphen"/>ty and equality of the individual ſubordinate members muſt be ſuperceded.</p>
+               <p>
+                  <pb n="35" facs="tcp:173096:19"/>
+But in the eſtabliſhed government of a popu<g ref="char:EOLhyphen"/>lous Commonwealth, it is prudentially neceſſa<g ref="char:EOLhyphen"/>ry that there be Governours of different quali<g ref="char:EOLhyphen"/>fications, to whom thoſe who are ſubordinate ought to be in ſubjection, and whereſoever ſuch Governours are, there neceſſarily muſt be prio<g ref="char:EOLhyphen"/>rity and inferiority and degrees of both.</p>
+               <p>Therefore the parity and equality of the in<g ref="char:EOLhyphen"/>dividual ſubordinate members muſt neceſſarily be ſuperceded in the eſtabliſhed Government of of a populous Commonwealth.</p>
+            </div>
+            <div n="68" type="proposition">
+               <head>LXVIII.</head>
+               <p>If the Fatherhood of a Chriſtian Aſſocia<g ref="char:EOLhyphen"/>tion hath from God by the gifts of Grace and Nature, a ſole and independent power in all cauſes as well ſpiritual as temporal, then all Oathes and Covenants deſtructive to their inte<g ref="char:EOLhyphen"/>reſts are ſinful and void.</p>
+               <p>But the Fatherhood of a Chriſtian Common<g ref="char:EOLhyphen"/>wealth hath from God by the gifts of Grace and Nature a ſole and independent power in all cauſes as well Eccleſiaſtical as Civil.</p>
+               <p>Therefore all ſuch oaths and covenants are ſin<g ref="char:EOLhyphen"/>ful and void, as are deſtructive to their intereſts.</p>
+            </div>
+            <div n="69" type="proposition">
+               <head>LXIX.</head>
+               <p>If it be inconſiſtent with the paternal Preroga<g ref="char:EOLhyphen"/>tive to have ſharers with them in government, then if any member of a chriſtian aſſociation do voluntarily vow allegeance to any other power, be it forraign or domeſtique, his vow is ſinful, and the covenant void.</p>
+               <p>
+                  <pb n="36" facs="tcp:173096:20"/>
+But it is inconſiſtent with the paternal Prero<g ref="char:EOLhyphen"/>gative to have ſharers with them in govern<g ref="char:EOLhyphen"/>ment.</p>
+               <p>Therefore if any member of a Chriſtian aſſo<g ref="char:EOLhyphen"/>ciation do vow allegeance to any other power be it forraine or domeſtique, his vow is ſinfull and the covenant void.</p>
+            </div>
+            <div n="70" type="proposition">
+               <head>LXX.</head>
+               <p>If nationall Covenants be grounded upon a humane Law, and if the ſupreame legiſlative power ought to be obeyed as well in their abro<g ref="char:EOLhyphen"/>gating as in their making of Lawes, then, if the Law upon which a Covenant is grounded be taken away, the Covenant loſeth its force.</p>
+               <p>But nationall Covenants are grounded upon a humane Law, and the ſupreme legiſlative po<g ref="char:EOLhyphen"/>wer ought to be obeyed as well in their abroga<g ref="char:EOLhyphen"/>ting, as in their conſtituting of Lawes.</p>
+               <p>Therefore all ſuch covenants loſe their force, if the Law upon which they are grounded bee taken away.</p>
+               <p>Truth is beſt diſcerned when in her playneſt dreſs, I have therefore clothed theſe my concep<g ref="char:EOLhyphen"/>tions in this home-ſpan attyre, that the ſenſe and intendment of the concluſions may be ob<g ref="char:EOLhyphen"/>vious to the meaneſt capacity; wherein did I conceive the leaſt inconſiſtency with even and upright reaſon, they ſhould ſooner have felt the flames, then ſeen the light: But leſt I may therein ſeeme to ſome, to ſavor too much of an
+<pb n="37" facs="tcp:173096:20"/>
+affected ſingularity, I will cloſe up the propo<g ref="char:EOLhyphen"/>ſitions with our Saviours example, then which none is more proper for a Chriſtian Mans imi<g ref="char:EOLhyphen"/>tation and direction; and from thence it ſeems to me, that the moſt materiall of the prece<g ref="char:EOLhyphen"/>dent inferences may rationally bee dedu<g ref="char:EOLhyphen"/>cted.</p>
+               <p>Amongſt the Evangeliſts, who, being particu<g ref="char:EOLhyphen"/>larly inſpired, wrote the ſtory of his life and paſſion, it is recorded, that hee beſtowed a chi<g ref="char:EOLhyphen"/>ding upon <hi>Peter,</hi> for oppoſing the Officers and Souldiers of the Common-councell of his own Nation, in the defence of him his Maſter, when they came to lay violent hands upon him. And that hee himſelfe as Man, thought it no ſinne to ſubmit his own body even to death, the ſame Councell judging him guilty of a Crime, meriting ſo ſevere a puniſhment.</p>
+               <p>It was the authority of this Councell, to which our Saviour laid down the deareſt of his earthly intereſts, not to the power of <hi>Pilate;</hi> for he waſhed the blood from off his guiltleſs hands and had the power been ſolely in him, made his deſire to ſave him manifeſt, by pleading for his life, and juſtifying his ſpotleſs innocence, ſay<g ref="char:EOLhyphen"/>ing, I finde no fault in the Man. It was the councell then that gave the condemning ſen<g ref="char:EOLhyphen"/>tence againſt him. Wee have a Law, and by that Law he ought to dye, was the inſtrumental vote, that ſent him an innocent to the meritori<g ref="char:EOLhyphen"/>ous
+<pb n="38" facs="tcp:173096:21"/>
+Croſs. Which councel had he not been conſcious, that it had lawfully a power over him, his ſubmiſſion thereunto had been a ſinne againſt himſelfe, becauſe it was in his power to ſummon Legions of Angels to his protection. And had he ſinned, his ſuffering had not beene efficacious to Mans ſalvation.</p>
+               <p>Something may be ſaid, why this example of our Saviours is not altogether pertinent to this purpoſe. As firſt in reſpect of that ſaying of the <hi>Jewes,</hi> wherein they diſclaime any lawfulneſs in themſelves to put any man to death; from whence it may be alledged, that our Saviour ſuffered not under the authority of the Jewiſh Councell, but <hi>Pilates</hi> juriſdiction. Which is thus anſwered.</p>
+               <p>It is apparent that the ſentence of death was paſſed upon him by the councel; and that was it which gave <hi>Pilate</hi> power over his life. And that that Nation had liberty to try offending natives by their own Lawes is not leſs evi<g ref="char:EOLhyphen"/>dent. Whereby it ſeemes to me, that (they bring a conquered Nation) the allegeance be<g ref="char:EOLhyphen"/>tweene the Emperour and them, was regulated and circumſcribed by reciprocall capitulations, and conditionall Covenants, by which the executing power was reſerved to the Emperiall Officer: otherwiſe the Leviticall Law by which the <hi>Iſraelites</hi> were forbidden to ſuffer a bla<g ref="char:EOLhyphen"/>ſphemer to live would have juſtified them
+<pb n="39" facs="tcp:173096:21"/>
+no leſs in the execution then in paſſing the ſen<g ref="char:EOLhyphen"/>tence. And therefore although the executing power was conſentatively in <hi>Pilate</hi> (for which cauſe our Saviour may be ſaid to ſuffer under him) yet was it authoritatively from that Ma<g ref="char:EOLhyphen"/>giſtracy which did yeeld to thoſe conditi<g ref="char:EOLhyphen"/>ons; and that may ſtill be the Common-coun<g ref="char:EOLhyphen"/>cell of his own Nation.</p>
+               <p>Againe, whereas we ſay that the ſupreme au<g ref="char:EOLhyphen"/>thority is ſolely and independently in the El<g ref="char:EOLhyphen"/>derſhip of aſſociated Chriſtians, it may be ob<g ref="char:EOLhyphen"/>jected, that this example will not make good the aſſertion: becauſe we finde that Prieſts, Phariſees and Scribes, were mixed with the El<g ref="char:EOLhyphen"/>ders of the people in that councell by which he was condemned. To this we reply, that.</p>
+               <p>The people of <hi>Iſrael</hi> being admoniſhed to make themſelves Judges and Officers in all their Tribes, and the Prieſthood not being in<g ref="char:EOLhyphen"/>feoffed by God with any judiciary authority, nor the orders of Scribes and Phariſees conſti<g ref="char:EOLhyphen"/>tuted by him, if we ſhould ſay that theſe Prieſts, Scribes and Phariſees were made members of that councell by the election of the people, it would be a long while before any thing could be produced to prove the contrary. Beſides in matters hard to be judged, the peo<g ref="char:EOLhyphen"/>ple were directed to enquire of the Prieſts and Levites, &amp; they might therefore be called by the Elders of the people to aſſiſt in their Na<g ref="char:EOLhyphen"/>tional
+<pb n="40" facs="tcp:173096:22"/>
+Councels, as it hath been the cuſtom in <hi>England</hi> for the Judges at Law, and yet not have therein a condemnatory power. And this ſeems to be intendment of the Text, for after the High Prieſt had voted his anſwer to be blaſphemous, he refers the ſentence to the Councel, and they thereupon condemn him to be guilty of death. <hi>Deut.</hi> 16. 18. <hi>Levit.</hi> 17. 9. <hi>Marke</hi> 14. 64.</p>
+               <p>This was the caſe of that immaculate Lamb, who being to be offered up an expiation, for ſin, was careful to preſerve himſelf without ſpot, that man might be cleanſed from the deep ſtain of his deadly pollutions, by that his underſer<g ref="char:EOLhyphen"/>vedly bleeding Oblation.</p>
+               <p>Chriſt the anointed and juſt one was ſen<g ref="char:EOLhyphen"/>tenced to death by the unjuſt verdict of the El<g ref="char:EOLhyphen"/>ders of of his own Nation; and yet he, having power to reſiſt, ſubmitted to the killing con<g ref="char:EOLhyphen"/>demnation; becauſe he knew it was not unjuſt ſo to do. Here we have an example beyond ex<g ref="char:EOLhyphen"/>amples; a preſident equal to a precept. He is ſafe that can repoſe upon this Rock, ſeeing God hath made me a member, I will not ſcruple to obey ſuch an authority as had power over my head. He did not expoſtulate the unjuſt<g ref="char:EOLhyphen"/>neſſe of the ſentence; nor will I ſo much eſteem of my own worth above his merits, as to think that any priviledge or prerogative can exempt me from being under the laſh of the like au<g ref="char:EOLhyphen"/>thority.</p>
+               <pb n="41" facs="tcp:173096:22"/>
+               <p>So long as live in a ſociety, I muſt be under ſome government, and it ought to be ſuch as I may ſafely ſubmit to. Not meerly for the bene<g ref="char:EOLhyphen"/>fit ſake, for if I goe no further, my obedience exceeds not the gratitude of ſenſuall Beaſts, but like a Chriſtian for conſcience ſake. Not my fancy, but my duty muſt guide me to be obedi<g ref="char:EOLhyphen"/>ent. I cannot erre by my ſubmiſſion to a law<g ref="char:EOLhyphen"/>ful authority. And I ſhall hardly be perſwaded, that being incorporated into a Chriſtian Socie<g ref="char:EOLhyphen"/>ty, any Magiſtracy can have ſo lawfull a power over me, as the Elderſhip or paternall Councel of my own Nation, till I know upon whoſe judgement I may rely with better ſecurity then upon my allſeeing and no ſinning Savi<g ref="char:EOLhyphen"/>ours.</p>
+               <p>He was a King, a Prieſt and a Prophet, who, having a certaine and infallible knowledge of all things, taught us by his example, to be obe<g ref="char:EOLhyphen"/>dient to the determinations of nationall coun<g ref="char:EOLhyphen"/>cels. And what pretenders ſoever there be to Prophecy, Prieſthood or Kingſhip, who dare truſt to their own conceptions, rather then to the path, which he who only can be their Savi<g ref="char:EOLhyphen"/>our hath troden out to them, they are not like<g ref="char:EOLhyphen"/>ly ever to come to the place that hee hath pro<g ref="char:EOLhyphen"/>vided for thoſe who follow and beleeve in him, for he that thinks himſelfe wiſer then God can<g ref="char:EOLhyphen"/>not put any confidence in God.</p>
+               <p>
+                  <hi>Adam</hi> ſins, and in him all Mankinde. To free
+<pb n="42" facs="tcp:173096:23"/>
+Man from the puniſhment due for ſin Chriſt is promiſed: God, to ſhadow forth the deſigned Chriſtian Church, forms to himſelfe a Church of the children of <hi>Iſrael,</hi> for whoſe ſakes the I<g ref="char:EOLhyphen"/>dolatrous Kings of <hi>Canaan,</hi> are deſtroyed by Gods appointment. The <hi>Jſraelites</hi> deſire, God is diſpleaſed, yet gives them Kings reſerving the choice to himſelfe. Theſe Kings are types of him, who was to ſuffer for ſinne. Some of theſe Kings are by Gods direction doomed to death for ſinning. By Gods predeterminate counſell the Kingſhip and Prieſthood of <hi>Iſrael</hi> met both in him, who was preordeined to be a ſacrifice for ſin: and Chriſt not without the conſent of his Father, together with his life gives up the power of both to a councell of his own Nati<g ref="char:EOLhyphen"/>on. By his death the Law by which thoſe Kings and Prieſts were conſtituted is aboliſhed; and all thoſe made Kings and Prieſts to God the father, who by a true and lively faith, can lay hold up<g ref="char:EOLhyphen"/>on his ſons incarnation, paſſion and reſurrecti<g ref="char:EOLhyphen"/>on. Thus were <hi>Adams</hi> poſterity brought from bondage to liberty, from death to life. And whe<g ref="char:EOLhyphen"/>ther the ſubſtance of the precedent propoſitions may not be reaſonably collected from this ex<g ref="char:EOLhyphen"/>emplary progreſs to mans ſalvation, I leave to be determined by any ingenuous Chriſtian, who will contemplate theſe circumſtances in his ſo<g ref="char:EOLhyphen"/>ber, ſelfe-denying, and peace-projecting ſoli<g ref="char:EOLhyphen"/>tudes. <hi>Rev.</hi> 1. 6.</p>
+               <pb n="43" facs="tcp:173096:23"/>
+               <p>To conclude. I am not ſo wiſe in my own conceit, as to thinke it impoſſible for me to be miſtaken. It may be that my own blindneſs hath made me venter thus boldly into publique; but I would be loath that that ſhould lead any other man into the ſame error. If therefore through the want of judgement, I have in any thing here<g ref="char:EOLhyphen"/>in by me publiſhed ſwarved from the truth, I I doe humbly requeſt, and ſhall thinke my ſelfe extreamely happy to have my miſapprehenſi<g ref="char:EOLhyphen"/>ons laid open by ſome ingenious and more knowing pen; which being done, let me under<g ref="char:EOLhyphen"/>goe the ſevereſt of cenſures, if I be found in the number of thoſe who hate to be reformed.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
